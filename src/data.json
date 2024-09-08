@@ -1,0 +1,41 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Music",
+            "question": "Which rock band released the album &quot;The Bends&quot; in March 1995?",
+            "correct_answer": "Radiohead",
+            "incorrect_answers": [
+                "Nirvana",
+                "Coldplay",
+                "U2"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Video Games",
+            "question": "Who is the main protagonist in the game Life is Strange: Before The Storm?",
+            "correct_answer": "Chloe Price ",
+            "incorrect_answers": [
+                "Max Caulfield",
+                "Rachel Amber",
+                "Frank Bowers"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "Which American manufactured submachine gun was informally known by the American soldiers that used it as &quot;Grease Gun&quot;?",
+            "correct_answer": "M3",
+            "incorrect_answers": [
+                "Colt 9mm",
+                "Thompson",
+                "MAC-10"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+.home_container {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.app_name_title {
+    font-size: 34px;
+}
+
+.banner {
+    width: 48%;
+    align-self: center;
+}
+
+.name_error{
+    width: 48%;
+    margin: 0 auto;
+}
