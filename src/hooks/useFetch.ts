@@ -18,9 +18,10 @@ const useFetch = (URL: String) => {
                     dispatch(setQuestions(response.data?.results))
                     dispatch(setOptions(
                         response.data?.results &&
-                        handleSuffle([
+                        [
                             String(response.data?.results[currQuestion]?.correct_answer),
-                            ...(response.data?.results[currQuestion]?.incorrect_answers ?? [])])
+                            ...(response.data?.results[currQuestion]?.incorrect_answers ?? [])
+                        ]
                     ))
                 }
                 dispatch(setLoading(false))
@@ -35,10 +36,6 @@ const useFetch = (URL: String) => {
         }
         fetchData()
     }, [URL])
-
-    const handleSuffle = (options: string[]) => {
-        return options.sort(() => Math.random() - 0.5)
-    }
 }
 
 export default useFetch
