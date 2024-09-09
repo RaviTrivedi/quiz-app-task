@@ -5,7 +5,7 @@ import LoaderComponent from "../../components/Loader";
 import Question from "../Question";
 import useFetch from "../../hooks/useFetch";
 
-const URL = "https://opentdb.com/api.php?amount=5";
+const URL = "https://opentdb.com/api.php?amount=10";
 const Quiz = () => {
 
     const { name, questions } = useSelector((state: RootState) => state.question)

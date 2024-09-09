@@ -59,7 +59,7 @@ const Question = () => {
     };
 
     const handleNext = () => {
-        if (currQuestion >= 4) {
+        if (currQuestion >= 9) {
             navigate("/result")
         }
         if (selected === correct_answer) {
@@ -124,10 +124,9 @@ const Question = () => {
                 <ButtonComponent
                     color="secondary"
                     variant="contained"
-                    // className="next_ques_btn"
                     disabled={!selected}
                     onClick={handleNext}
-                    text={currQuestion >= 4 ? "Finish Quiz" : "Next Question"}
+                    text={currQuestion >= 9 ? "Finish Quiz" : "Next Question"}
                 />
             </Container>
         </>

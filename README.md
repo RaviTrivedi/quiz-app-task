@@ -1,6 +1,6 @@
-# React + TypeScript + Vite
+# React + TypeScript + Redux Toolkit-RTK
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live URL :- (https://66ded7b014f94424a02d99d6--unrivaled-khapse-93c837.netlify.app/)
 
 Currently, two official plugins are available:
 
